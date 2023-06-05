@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class DataConnection {
     public static void main(String[] args) {
-        String url = "jdbc:mysql://localhost:3306/MySQLConnection";
+        String url = "jdbc:mysql://localhost:3306/metro";
         String user = "root";
         String password = "stage";
 
