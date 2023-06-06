@@ -28,7 +28,6 @@
 			<scope>test</scope>
 		</dependency>
 
-
 		<!-- MySQL -->
 		<dependency>
 			<groupId>mysql</groupId>
