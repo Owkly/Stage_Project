@@ -11,6 +11,7 @@ public class DataConnection {
         try (Connection conn = DriverManager.getConnection(PropertieMySQL.url, PropertieMySQL.user, PropertieMySQL.password)) {
             System.out.println("Connected to the database");
 
+            String dd = "";
             String sql = "SELECT * FROM stop";
             Statement statement = conn.createStatement();
             ResultSet resultSet = statement.executeQuery(sql);
