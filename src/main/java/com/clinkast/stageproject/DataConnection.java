@@ -6,6 +6,8 @@ import java.sql.*;
 public class DataConnection {
     public static void main(String[] args) {
 
+        // Vérification de la connection à la base de donnée MySql
+
         try (Connection conn = DriverManager.getConnection(PropertieMySQL.url, PropertieMySQL.user, PropertieMySQL.password)) {
             System.out.println("Connected to the database");
 
