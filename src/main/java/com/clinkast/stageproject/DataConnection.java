@@ -48,6 +48,8 @@ public class DataConnection {
             // Body row
             htmlContent.append("<body>\n" +
                     "   <h1 class='centered-title'>Présentation des arrêts</h1>\n" +
+                    "   <img src='https://upload.wikimedia.org/wikipedia/commons/3/3e/Plan_Lin%C3%A9aire_M%C3%A9tro_Paris_Ligne_1_-_2012-12-15.svg' alt='Ligne 1' width=100% height=30%>" +
+                    "   \n" +
                     "   <table>\n" +
                     "   <tr>\n" +
                     "       <th>ID</th>\n" +
